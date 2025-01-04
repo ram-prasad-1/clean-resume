@@ -5,3 +5,4 @@
 npm i
 npm run dev
 ```
+### Add your data in 'data/candidateData.json5' file
