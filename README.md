@@ -5,4 +5,7 @@
 npm i
 npm run dev
 ```
-### Add your data in 'data/candidateData.json5' file
+
+
+- Add your data in 'data/candidateData.json5' file
+- Press CMD + P to print or File -> Print in Chrome to print the resume.
