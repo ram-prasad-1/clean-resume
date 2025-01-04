@@ -1,0 +1,92 @@
+.resumeContainer {
+  --left-col-width: 224px;
+
+  --body-top-space: 9px;
+  --body-bottom-space: calc(1.4 * var(--body-top-space));
+  --header-top-space: calc(1.7 * var(--body-top-space));
+
+  padding: 1cm 1.5cm;
+  color: #000;
+}
+
+@media only screen {
+  .preview {
+    width: 210mm;
+    height: 297mm;
+
+    margin: 30px 120px;
+    outline: black solid 1px;
+  }
+}
+
+.contact {
+  width: var(--left-col-width);
+}
+
+.section {
+  margin-top: var(--header-top-space);
+  display: flex;
+  align-items: center;
+  font-size: 13.1pt;
+  font-weight: 600;
+  color: #2a3ffb;
+}
+
+.hrDivider {
+  height: 2px;
+  flex-grow: 1;
+
+  margin-left: 16px;
+  margin-top: 6px;
+  background-color: #2a3ffb;
+}
+
+.roleInfo {
+  display: flex;
+  align-items: center;
+  margin-top: var(--body-top-space);
+}
+
+.role {
+  width: var(--left-col-width);
+  font-size: 11.9pt;
+  font-weight: 600;
+}
+
+.date {
+  margin-left: auto;
+}
+
+.highlights {
+  margin-top: var(--body-top-space);
+  margin-left: 16px;
+  margin-bottom: var(--body-bottom-space);
+}
+
+.highlights.eduHighlights {
+  margin-top: 2px;
+}
+
+.eduHighlights li {
+  margin-left: var(--left-col-width);
+}
+
+.skillsHeader {
+  /*margin-top: -8px;*/
+}
+
+.skillsBody {
+  margin-top: var(--body-top-space);
+}
+
+.skillCategoryRow {
+  display: flex;
+  margin-top: 6px;
+}
+
+.skillCategory {
+  font-weight: 600;
+  flex-basis: var(--left-col-width);
+  flex-grow: 0;
+  flex-shrink: 0;
+}

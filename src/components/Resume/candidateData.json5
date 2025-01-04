@@ -1,0 +1,153 @@
+{
+  firstName: 'Ram Prasad',
+  lastName: 'Deora',
+  about: {
+    summary: [
+      'Frontend developer with 6 years of experience and a background in \
+    React ecosystem technologies, including React, Redux, Next.js, and Webpack.',
+
+      'Skilled in transforming legacy codebases \
+       into modern, maintainable, and clean codebases.',
+    ],
+  },
+  contact: {
+    city: 'Bangalore',
+    country: 'India',
+    phone: 1234567890,
+    email: 'ram@gmail.com',
+    linkedIn: 'https://www.linkedin.com/ram',
+    github: 'https://github.com/ram',
+  },
+
+  experience: [
+    {
+      company: 'Tekion',
+      title: 'Software Engineer II',
+      link: 'https://tekion.com/',
+      start: ['Feb', 2022],
+      end: null,
+      highlights: [
+        'Implemented UI user flows for car inventory \
+        and sales management software platform using React Redux stack.',
+
+        "Led the complete UI revamp to improve the car-selling experience for dealers.",
+
+        'Pioneered Webpack migration of all frontend applications to v5 from v4, \
+        resulting in 11-20% reduction in bundle size. \
+        Upgraded the react-redux package as well,  improving the DX.',
+
+        'Led the UI integration of multiple third-party services like Blackbook, KBB, and Dealertrack. \
+Coordinated with multiple teams.',
+
+        'Mentored a team of 7 developers to improve their debugging and coding skills.',
+
+//        'Serving as POC for 2 business critical modules for the company.',
+      ]
+    },
+    {
+      company: 'Crewscale - Vedantu',
+      title: 'Frontend Engineer',
+      link: 'https://www.vedantu.com/',
+      start: ['Dec', 2020],
+      end: ['Dec', 2021],
+      highlights: [
+        'Developed engaging and personalized UI components in \
+        React Next.js for the fastest-growing programs at Vedantu.',
+
+        'Managed tech debt, including reducing the page size by 65% with better code-splitting \
+        and improving the lighthouse performance score by 250%.',
+
+        'Optimized build scripts to reduce build time by >80%.',
+
+        'Pioneered the de-merger of web apps from the main repo. \
+        Implemented scalable architecture and containerization using Docker.',
+      ]
+    },
+
+    {
+      company: 'Hindipur & Bitwisebread',
+      title: 'Founder, Developer',
+      link: 'https://hindipur.vercel.app/',
+      start: ['Jun', 2020],
+      end: ['Nov', 2020],
+      highlights: [
+        'Built Hindipur platform in React Next.js using Typescript \
+        to provide mobile optimized short notes for students.',
+
+        'Incorporated SSG, SSR, CSR, and API routing. Styled using TailwindCSS.',
+
+        'Developed BitwiseBread website using the Gatsby React framework to learn programming languages.',
+      ]
+    },
+
+    {
+      company: 'MetalClock',
+      title: 'Lead Software Engineer',
+      link: 'https://www.metalclock.in',
+      start: ['Aug', 2019],
+      end: ['Jun', 2020],
+      highlights: [
+        'Developed 3 Android apps in Kotlin for \
+        reporting and managing various steel production processes.',
+
+        'Helped the steel factories determine 8300+ issues and digitalize \
+        and analyze production reports of 1,00,000+ tonnes of crude steel.',
+
+//        'Helped hire and manage a team of interns and freelance designers.'
+      ]
+    },
+    {
+      company: 'Foore',
+      title: 'Software Developer',
+      link: 'https://foore.in/',
+      start: ['July', 2018],
+      end: ['June', 2019],
+      highlights: [
+        'Integrated lead tracking and appointment syncing with Zapier to connect \
+        with 1500+ apps. Developed as a Django microservice.',
+
+        'Simulated and Automated Facebook user interactions from \
+        creating test users to interacting with the test page.',
+      ]
+    }
+  ],
+
+  education: [
+    {
+      institute: 'IIT Kanpur',
+      degree: 'B.Tech Civil Engineering',
+      link: 'https://www.iitk.ac.in/',
+      start: [],
+      end: ['May', '2018'],
+      highlights_: [
+        'AIR 6447 in IIT-JEE 2012'
+      ]
+    }
+  ],
+
+
+  skills: [
+    {
+      category: 'Languages',
+      skills: [
+        'JavaScript', 'Java', 'TypeScript', 'Kotlin', 'Python', 'SQL', 'Bash', 'HTML', 'CSS'
+      ]
+    },
+
+    {
+      category: 'Technologies',
+      skills: [
+        'React', 'Redux', 'Webpack', 'Next.js', 'Node.js', 'Express.js',
+//        'React', 'Redux', 'React Native', 'Webpack', 'Next.js', 'Node.js', 'Express.js',
+        'Docker', 'Jenkins', 'AWS', 'Android', 'PostgreSQL',
+      ]
+    },
+
+    {
+      category: 'Others',
+      skills: [
+        'Material Design', 'REST APIs', 'Data Structures & Algorithms'
+      ]
+    }
+  ],
+}

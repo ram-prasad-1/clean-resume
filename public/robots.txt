@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /private/
+Disallow: /temp/
+Disallow: /test/
+Disallow: /react/
+Disallow: /quick-notes/
