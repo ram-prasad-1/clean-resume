@@ -1,7 +1,7 @@
 import cx from 'clsx';
 import '@/css/tailwind.css';
 import './style.css';
-import data from './candidateData.json5';
+import data from '@/data/candidateData.json5';
 
 import { Barlow } from 'next/font/google';
 import SectionHeader from '@/components/Resume/SectionHeader';
