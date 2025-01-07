@@ -130,24 +130,37 @@ Coordinated with multiple teams.',
     {
       category: 'Languages',
       skills: [
-        'JavaScript', 'Java', 'TypeScript', 'Kotlin', 'Python', 'SQL', 'Bash', 'HTML', 'CSS'
+        'JavaScript', 'TypeScript', 'SQL', 'Bash', 'HTML', 'CSS'
       ]
     },
 
     {
       category: 'Technologies',
       skills: [
-        'React', 'Redux', 'Webpack', 'Next.js', 'Node.js', 'Express.js',
-//        'React', 'Redux', 'React Native', 'Webpack', 'Next.js', 'Node.js', 'Express.js',
-        'Docker', 'Jenkins', 'AWS', 'Android', 'PostgreSQL',
+        'React', 'Redux Toolkit', 'Webpack', 'Next.js', 'Node.js', 'Express.js',
+      ]
+    },
+
+    {
+      category: 'UI Design',
+      skills: [
+        'Ant Design', 'Material Design', 'TailwindCSS'
+      ]
+    },
+
+    {
+      category: 'Testing',
+      skills: [
+        'React Testing Library', 'Jest', 'Cypress'
       ]
     },
 
     {
       category: 'Others',
       skills: [
-        'Material Design', 'REST APIs', 'Data Structures & Algorithms'
+        'REST APIs', 'Docker', 'Jenkins', 'Git', 'Data Structures & Algorithms'
       ]
-    }
+    },
+
   ],
 }
