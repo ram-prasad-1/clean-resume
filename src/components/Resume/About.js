@@ -1,6 +1,9 @@
 import _join from 'lodash/join';
 import _replace from 'lodash/replace';
 import _map from 'lodash/map';
+import siteMetadata from '@/data/siteMetadata';
+import SocialIcon from '@/components/social-icons';
+import React from 'react';
 
 const getDisplayUrl = (urlLink) => {
   const url = new URL(urlLink);
@@ -14,27 +17,28 @@ const getDisplayUrl = (urlLink) => {
 const About = ({ about, contact }) => {
   const { city, country, phone, email, linkedIn, github } = contact;
 
+  // ●•○▪︎▫︎
   return (
-    <div className="w-full grid grid-cols-2 items-end ">
-      <div >
-        <a className={'text-[#2a3ffb]'} href={linkedIn}> {getDisplayUrl(linkedIn)} </a>
+    <div className="flex flex-col items-center justify-center">
+      <div className={'flex items-center gap-1.5'}>
+        <a className={'text-[#2a3ffbqqqq]'} href={linkedIn}>
+          {getDisplayUrl(linkedIn)}{' '}
+        </a>
+        <span>▫︎</span>
+        <a className={'text-[#2a3ffbqqq]'} href={github}>
+          {getDisplayUrl(github)}{' '}
+        </a>
       </div>
 
-      <div className={'flex justify-end'}>
-        <a href={`mailto:${email}`}> {email} </a>
-      </div>
-
-      <div>
-        <a className={'text-[#2a3ffb]'} href={github}> {getDisplayUrl(github)} </a>
-      </div>
-
-      <div className={'flex justify-end'}>
+      <div className={'flex items-center gap-1.5'}>
+        <a className={'text-[#2a3ffbfff]'} href={`mailto:${email}`}>
+          {email}
+        </a>
+        <span>▫︎</span>
         <a href={`tel:${phone}`}> {phone} </a>
+        <span>▫︎</span>
+        <span className={''}>{_join([city, country], ', ')}</span>
       </div>
-
-      <div className=""></div>
-
-      <div className={'flex justify-end'}>{_join([city, country], ', ')}</div>
     </div>
   );
 };
