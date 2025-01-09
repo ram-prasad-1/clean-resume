@@ -24,9 +24,15 @@ export default function Page() {
     <div
       className={cx(barlow.className, 'resumeContainer preview text-[9.5pt]')}
     >
-      <h1 className={'text-[21.4pt]'}>{_join([firstName, lastName], ' ')}</h1>
+      <div className="flex justify-center items-center">
+        <h1 className={'text-[21.4pt]'}>{_join([firstName, lastName], ' ')}</h1>
+      </div>
 
-      <About about={about} contact={contact} />
+      <div className="flex justify-center items-center">
+        <About about={about} contact={contact} />
+      </div>
+
+
 
       <SectionHeader title={'Skills'} className="skillsHeader" />
       <div className="skillsBody">
